@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Inicio de Pepsi</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href=""><img src="assets/img/logo.png" class="logo" alt=""></a>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Nuevo</a></li>
+                <li><a href="#">Información</a></li>
+                <li><a href="#">Contactenos</a></li>
+            </ul>
+        </header>
+        
+        <div class="content">
+
+            <div class="textBox">
+                <h2>Pepsi es <br><span>lo que quiero</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, ad? Dignissimos delectus ullam soluta! Odit possimus tempore provident cum accusamus doloremque hic. Laboriosam incidunt tempora neque minima beatae. Voluptas, ducimus?</p>
+                <a href="#">Ver los productos</a>
+            </div>
+
+            <div class="imgBox">
+                <img src="assets/img/pepsi001.png" alt="imagen pepsi" class="pepsi">
+            </div>
+
+        </div>
+
+        <ul class="listaFotos">  <!--LAS FOTOS DE PEPSI PARA SELECCIONAR-->
+            <li><img src="assets/img/pepsi001.png" onclick="imgSlider('assets/img/pepsi001.png'); changeBgColor('#0062be')" alt=""></li>
+            <li><img src="assets/img/pepsi002.png" onclick="imgSlider('assets/img/pepsi002.png'); changeBgColor('#e60c2c')" alt=""></li>
+            <li><img src="assets/img/pepsi003.png" onclick="imgSlider('assets/img/pepsi003.png'); changeBgColor('#1e1e1e')" alt=""></li>
+        </ul>
+
+        <ul class="redesSociales">
+            <li><a href="#"><img src="assets/img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="assets/img/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="assets/img/instagram.png" alt=""></a></li>
+        </ul>
+
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
