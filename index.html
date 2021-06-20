@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Pagina de Inicio de Pepsi</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">   
@@ -13,7 +13,9 @@
     <section class="sec">
         <header>
             <a href=""><img src="assets/img/logo.png" class="logo" alt=""></a>
-            <ul>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <!--<img src="assets/img/menu.png" class="toggleMenu" onclick="menuToggle();" alt="">-->
+            <ul class="navigation">
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Productos</a></li>
                 <li><a href="#">Nuevo</a></li>
@@ -35,6 +37,8 @@
             </div>
 
         </div>
+
+        <!--GUARDAR LAS LISTAS EN EL DIV CONTENEDOR PARA LUEGO AGREGAR MAS COSAS Y NO CHOQUE XD-->
 
         <ul class="listaFotos">  <!--LAS FOTOS DE PEPSI PARA SELECCIONAR-->
             <li><img src="assets/img/pepsi001.png" onclick="imgSlider('assets/img/pepsi001.png'); changeBgColor('#0062be')" alt=""></li>
