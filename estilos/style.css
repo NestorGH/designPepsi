@@ -82,6 +82,7 @@ header ul li a{
     color: #fff;
 }
 
+/*BOTON VER PRODUCTOS*/
 .content .textBox a{
     display: inline-block;
     margin-top: 20px;
@@ -156,6 +157,7 @@ header ul li a{
     transform: scale(0.6);
 }
 
+
 /*media queries*/
 
 @media (max-width: 991px){
@@ -204,7 +206,7 @@ header ul li a{
         font-size: 2em;
         margin: 10px 0;
     }
-    /*XD*/
+
     header ul li a:hover {
         color: #ed0223;
     }
